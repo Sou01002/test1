@@ -4,58 +4,23 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<!-- ============================================================
-     株式会社大吉工務店 ランディングページ（1ページ完結型）
-     単一HTMLファイル（CSS / JS 内包）／コメントは日本語で記載
-     ============================================================
+<title>練馬区のリフォーム・新築・増改築｜株式会社大吉工務店｜窓・断熱・水回り・外壁・耐震</title>
+<meta name="description" content="東京都練馬区北町の株式会社大吉工務店。建築一式工事の許可を持つ地域密着の工務店。新築・増築・改築・減築・耐震補強から、窓・断熱、水回り（キッチン・浴室）、外壁リフォームまで幅広く対応。一戸建て・マンション対応。ご相談・お見積りはお気軽に。東武練馬駅 徒歩約8分。" />
+<meta name="keywords" content="練馬区,リフォーム,工務店,新築,増築,改築,減築,耐震補強,窓リフォーム,断熱,水回り,キッチン,浴室,外壁,北町,東武練馬,大吉工務店" />
 
-     ▼▼▼ 後日「差し替えが必要」なプレースホルダー一覧 ▼▼▼
-     （クライアントから素材・情報が届き次第、ここを目印に差し替えてください）
-
-     [画像]
-       1. ロゴ画像（横長・約200×60px）……… ヘッダー左／フッター
-          → CSS変数 --logo-image、または .logo の中身を画像に置換
-       2. ヒーロー背景写真（16:9・推奨1920×900px）… #hero
-          → CSS変数 --hero-image を実画像URLに変更（下記CSS内に説明あり）
-       3. 「選ばれる理由」アイコン4点（任意）……… 仮のSVGアイコンを設置済み
-       4. サービス写真3点（4:3）………………… #services の各カード
-       5. 施工実績ギャラリー写真（3〜6枚）……… #gallery のグリッド
-
-     [URL]
-       6. iタウンページ URL …… 文中の【iタウンページURL】を検索して置換
-       7. Googleマップ URL ……… 文中の【GoogleマップURL】を検索して置換
-
-     [テキスト情報]
-       8. 営業時間／受付時間／定休日 …… 【営業時間を後日記載】を検索して置換
-       9. 郵便番号 179-0081 …… 練馬区北町の一般番号を仮入力。正式番号に差し替え可
-      10. 「見積り無料」など条件面 …… #contact に該当文を【コメントアウト】で用意
-
-     [フォーム送信先]（★1か所に集約）
-      11. <form> の action 属性「【送信先設定】」と、
-          フォーム送信の連携方法 …… 下の【フォーム送信設定】コメントを参照
-
-     ※参考サイト（内田工務店）は構成・雰囲気の参考のみ。
-       文章・画像・ロゴは一切コピーしていません。コピーはすべてオリジナル/本指示書ベースです。
-     ============================================================ -->
-
-<title>練馬区のリフォーム｜株式会社大吉工務店｜窓・断熱・水回り・外壁</title>
-<meta name="description" content="東京都練馬区北町の株式会社大吉工務店。東武練馬駅 徒歩約8分。一戸建て・マンションの窓・断熱、キッチン・浴室など水回り、外壁リフォームに地域密着で対応します。" />
-
-<!-- OGP（SNSシェア時の表示。og:image は後日OGP用画像に差し替え可） -->
+<!-- OGP -->
 <meta property="og:type" content="website" />
-<meta property="og:title" content="練馬区のリフォーム｜株式会社大吉工務店" />
-<meta property="og:description" content="練馬区北町の地域密着リフォーム。窓・断熱／水回り／外壁。一戸建て・マンション対応。東武練馬駅 徒歩約8分。" />
+<meta property="og:title" content="練馬区のリフォーム・新築｜株式会社大吉工務店" />
+<meta property="og:description" content="東京都練馬区北町の地域密着の工務店。建築一式工事の許可を持ち、新築・増改築・耐震補強から、窓・断熱／水回り／外壁のリフォームまでワンストップで対応。ご相談・お見積りはお気軽に。" />
 <meta property="og:site_name" content="株式会社大吉工務店" />
-<meta property="og:locale" content="ja_JP" />
-<!-- <meta property="og:image" content="【OGP画像URL 1200×630px】" /> -->
-<meta name="theme-color" content="#1F4E5F" />
+<meta property="og:locale" content="ja_JP" /><meta name="theme-color" content="#1F4E5F" />
 
-<!-- フォント：Noto Sans JP（本文・UI）＋ Noto Serif JP（見出しの一部） -->
+<!-- フォント -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Serif+JP:wght@500;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@700&display=swap" rel="stylesheet" />
 
-<!-- 構造化データ：LocalBusiness（GeneralContractor）。会社情報は本書の一次情報を正確に反映 -->
+<!-- 構造化データ（LocalBusiness） -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -64,6 +29,11 @@
   "image": "",
   "telephone": "03-3931-1151",
   "founder": "河合 文子",
+  "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "credentialCategory": "建設業許可",
+    "name": "東京都知事許可 第011580号（建築一式工事）"
+  },
   "address": {
     "@type": "PostalAddress",
     "postalCode": "179-0081",
@@ -72,10 +42,12 @@
     "streetAddress": "北町1丁目25-4",
     "addressCountry": "JP"
   },
-  "areaServed": "練馬区・板橋区",
-  "description": "東京都練馬区北町の地域密着リフォーム会社。窓・断熱、水回り（キッチン・浴室など）、外壁リフォームに対応。一戸建て・マンション対応。",
-  "knowsAbout": ["窓・断熱リフォーム", "水回りリフォーム", "外壁リフォーム"],
-  "publicAccess": true
+  "areaServed": ["練馬区", "板橋区", "豊島区", "中野区", "杉並区"],
+  "description": "東京都練馬区北町の地域密着の工務店。新築・増築・改築・減築・耐震補強から、窓・断熱、水回り（キッチン・浴室など）、外壁リフォームまで幅広く対応。一戸建て・マンション対応。建築一式工事の建設業許可取得。",
+  "knowsAbout": ["新築工事", "増築工事", "改築工事", "減築工事", "耐震補強工事", "窓・断熱リフォーム", "水回りリフォーム", "外壁リフォーム"],
+  "publicAccess": true,
+  "priceRange": "$$",
+  "openingHours": "Mo-Sa"
 }
 </script>
 
@@ -172,10 +144,7 @@ select:focus-visible, textarea:focus-visible{
   color:var(--muted); max-width:46em; margin:0 0 44px; font-size:1.02rem;
 }
 
-/* ------------------------------------------------------------
-   画像プレースホルダー（差し替え前提のダミー枠）
-   → 実画像が届いたら、この .ph の中の <img> を入れるか背景画像に置換
-   ------------------------------------------------------------ */
+/* 画像プレースホルダー */
 .ph{
   position:relative;
   background:
@@ -187,7 +156,7 @@ select:focus-visible, textarea:focus-visible{
   padding:18px; overflow:hidden;
 }
 .ph .ph__cap{display:block;}
-.ph .ph__dim{display:block; font-weight:500; opacity:.8; margin-top:4px; font-size:.78rem;}
+.ph .ph__dim{display:block; font-weight:400; opacity:.8; margin-top:4px; font-size:.78rem;}
 .ph .ph__icon{display:block; margin:0 auto 8px; opacity:.55;}
 .ph--16x9{aspect-ratio:16/9;}
 .ph--4x3{aspect-ratio:4/3;}
@@ -212,7 +181,7 @@ select:focus-visible, textarea:focus-visible{
 .btn-ghost:hover{border-color:var(--teal);}
 
 /* ============================================================
-   ① ヘッダー（sticky）
+   ヘッダー（sticky）
    ============================================================ */
 .site-header{
   position:sticky; top:0; z-index:1000;
@@ -254,7 +223,7 @@ select:focus-visible, textarea:focus-visible{
   display:flex; gap:4px; flex-wrap:wrap;
 }
 .nav-inner a{
-  text-decoration:none; color:var(--ink); font-weight:500; font-size:.95rem;
+  text-decoration:none; color:var(--ink); font-weight:400; font-size:.95rem;
   padding:14px 16px; border-bottom:3px solid transparent; transition:color .15s, border-color .15s;
 }
 .nav-inner a:hover{color:var(--teal); border-color:var(--orange);}
@@ -271,30 +240,25 @@ select:focus-visible, textarea:focus-visible{
 .nav-toggle span::after{position:absolute; top:7px;}
 
 /* ============================================================
-   ② ヒーロー
+   ヒーロー
    ============================================================ */
 .hero{
   position:relative; color:#fff; isolation:isolate;
-  /* ▼ヒーロー背景写真の差し替えポイント▼
-     実画像が届いたら下行の url(...) を実ファイルに変更してください（16:9・1920×900px推奨）。
-     例： --hero-image: url('images/hero.jpg'); */
   --hero-image: none;
 }
 .hero__bg{
   position:absolute; inset:0; z-index:-2;
-  background:var(--hero-image), var(--teal-deep);
+  background:
+    var(--hero-image),
+    radial-gradient(ellipse at top right, rgba(176,141,87,.18) 0%, transparent 55%),
+    radial-gradient(ellipse at bottom left, rgba(224,123,57,.16) 0%, transparent 60%),
+    linear-gradient(135deg, var(--teal-deep) 0%, var(--teal) 100%);
   background-size:cover; background-position:center;
 }
 /* 写真が読みやすくなるスクリム（実写真でも文字が読める） */
 .hero__scrim{
   position:absolute; inset:0; z-index:-1;
   background:linear-gradient(105deg, rgba(15,44,54,.92) 0%, rgba(31,78,95,.78) 55%, rgba(31,78,95,.55) 100%);
-}
-/* 背景が未設定の間だけ見える「写真ここに」表示 */
-.hero__phnote{
-  position:absolute; right:16px; bottom:14px; z-index:0;
-  font-size:.74rem; color:rgba(255,255,255,.7); border:1px dashed rgba(255,255,255,.45);
-  padding:6px 12px; border-radius:8px; letter-spacing:.04em;
 }
 .hero__inner{
   max-width:var(--maxw); margin:0 auto; padding:96px 20px 104px;
@@ -314,9 +278,19 @@ select:focus-visible, textarea:focus-visible{
 }
 .hero__cta{display:flex; flex-wrap:wrap; gap:14px;}
 .hero .btn-tel{background:rgba(255,255,255,.95);}
+.hero__badges{
+  list-style:none; padding:0; margin:0 0 30px;
+  display:flex; flex-wrap:wrap; gap:10px 18px;
+  font-size:.95rem; font-weight:700;
+}
+.hero__badges li{
+  background:rgba(255,255,255,.12); border:1px solid rgba(255,255,255,.3);
+  padding:7px 14px; border-radius:999px; display:inline-flex; align-items:center; gap:6px;
+}
+.hero__badges li span{color:#FBD9B8;}
 
 /* ============================================================
-   ③ 選ばれる理由（4つの価値）
+   選ばれる理由
    ============================================================ */
 .values{
   display:grid; grid-template-columns:repeat(4, 1fr); gap:22px;
@@ -337,7 +311,7 @@ select:focus-visible, textarea:focus-visible{
 }
 
 /* ============================================================
-   ④ 対応業務（サービス）
+   対応業務（サービス）
    ============================================================ */
 .service-grid{display:grid; grid-template-columns:repeat(3, 1fr); gap:26px;}
 .service-card{
@@ -350,22 +324,215 @@ select:focus-visible, textarea:focus-visible{
 .service-note{
   margin-top:30px; text-align:center; color:var(--muted); font-size:.95rem;
 }
-
-/* ============================================================
-   ⑤ 施工実績ギャラリー
-   ============================================================ */
-.gallery{display:grid; grid-template-columns:repeat(3, 1fr); gap:18px;}
-.gallery figure{margin:0;}
-.gallery figcaption{
-  font-size:.85rem; color:var(--muted); margin-top:8px; padding-left:2px;
+.service-disclaimer{
+  background:#FFF8E5; border:1.5px dashed #C7652A; color:#7A3F12;
+  border-radius:10px; padding:14px 18px; margin:0 0 28px;
+  font-size:.92rem; line-height:1.75;
 }
-.gallery-link{margin-top:34px; text-align:center;}
+.service-disclaimer strong{color:#7A3F12;}
+.tag--check{
+  font-family:var(--sans); font-size:.7rem; letter-spacing:.08em;
+  background:#FFE8C2; color:#7A3F12; padding:3px 9px; border-radius:999px;
+  font-weight:700; border:1px dashed #C7652A;
+}
 
 /* ============================================================
-   ⑥ ご相談の流れ（4ステップ）
+   代表挨拶 / 私たちの想い
+   ============================================================ */
+.message{
+  display:grid; grid-template-columns:1fr 1.7fr; gap:40px; align-items:start;
+  background:#fff; border:1px solid var(--line); border-radius:var(--radius);
+  padding:40px; box-shadow:var(--shadow);
+}
+.message__rep{ text-align:center; padding:10px; }
+.message__avatar{
+  width:130px; height:130px; border-radius:50%; margin:0 auto 14px;
+  background:var(--cream); display:grid; place-items:center;
+  font-family:var(--serif); font-size:2.2rem; color:var(--teal); font-weight:700;
+  border:3px solid var(--cream-2);
+}
+.message__name{font-family:var(--serif); font-size:1.2rem; color:var(--teal); font-weight:700;}
+.message__title{font-size:.85rem; color:var(--muted); letter-spacing:.1em;}
+.message__body p{margin:0 0 14px; font-size:1rem; line-height:2;}
+.message__body p:last-child{margin-bottom:0;}
+.message__body strong{color:var(--teal);}
+@media (max-width:760px){
+  .message{grid-template-columns:1fr; padding:30px 22px; gap:22px;}
+}
+
+/* ============================================================
+   サービス詳細（リッチカード）
+   ============================================================ */
+.service-detail{
+  background:#fff; border:1px solid var(--line); border-radius:var(--radius);
+  padding:34px; box-shadow:var(--shadow); margin-bottom:24px;
+  display:grid; grid-template-columns:auto 1fr; gap:30px; align-items:start;
+}
+.service-detail__icon{
+  width:88px; height:88px; border-radius:18px; background:var(--cream);
+  display:grid; place-items:center; color:var(--teal); flex-shrink:0;
+}
+.service-detail__body h3{
+  font-family:var(--serif); font-size:1.45rem; color:var(--teal); margin-bottom:10px;
+  display:flex; align-items:baseline; gap:12px; flex-wrap:wrap;
+}
+.service-detail__body h3 .tag{
+  font-family:var(--sans); font-size:.72rem; letter-spacing:.12em;
+  background:var(--orange); color:#fff; padding:4px 11px; border-radius:999px; font-weight:700;
+}
+.service-detail__lead{font-size:1rem; line-height:1.95; margin:0 0 18px;}
+.service-detail__items{
+  list-style:none; padding:0; margin:0;
+  display:grid; grid-template-columns:repeat(2,1fr); gap:8px 22px;
+}
+.service-detail__items li{
+  font-size:.94rem; padding-left:24px; position:relative; line-height:1.7;
+}
+.service-detail__items li::before{
+  content:""; position:absolute; left:0; top:.55em;
+  width:14px; height:8px; border-left:2.5px solid var(--orange);
+  border-bottom:2.5px solid var(--orange); transform:rotate(-45deg);
+}
+@media (max-width:760px){
+  .service-detail{grid-template-columns:1fr; padding:26px 22px; gap:18px;}
+  .service-detail__icon{width:64px; height:64px;}
+  .service-detail__items{grid-template-columns:1fr;}
+}
+
+/* ============================================================
+   施工事例（Before/After）
+   ============================================================ */
+.works{display:grid; grid-template-columns:repeat(3,1fr); gap:24px;}
+.work-card{
+  background:#fff; border:1px solid var(--line); border-radius:var(--radius);
+  overflow:hidden; box-shadow:var(--shadow); display:flex; flex-direction:column;
+}
+.work-card__ba{display:grid; grid-template-columns:1fr 1fr; gap:0;}
+.work-card__ba .ph{border-radius:0; aspect-ratio:1/1;}
+.work-card__ba .ph::after{
+  content:attr(data-label); position:absolute; top:8px; left:8px;
+  background:rgba(31,78,95,.92); color:#fff;
+  font-size:.72rem; padding:3px 10px; border-radius:999px;
+  letter-spacing:.1em; font-weight:700;
+}
+.work-card__body{padding:22px;}
+.work-card__cat{
+  display:inline-block; font-size:.72rem; letter-spacing:.12em;
+  background:var(--teal); color:#fff; padding:3px 11px; border-radius:999px;
+  font-weight:700; margin-bottom:10px;
+}
+.work-card h3{font-size:1.06rem; color:var(--teal); margin-bottom:10px; line-height:1.55;}
+.work-card__meta{
+  list-style:none; padding:12px 0 0; margin:12px 0 0; border-top:1px solid var(--line);
+  display:grid; grid-template-columns:1fr 1fr; gap:6px;
+  font-size:.85rem; color:var(--muted);
+}
+.work-card__meta strong{color:var(--teal); display:block; font-size:.92rem;}
+@media (max-width:980px){.works{grid-template-columns:repeat(2,1fr);}}
+@media (max-width:560px){.works{grid-template-columns:1fr;}}
+
+/* ============================================================
+   よくあるご依頼例
+   ============================================================ */
+.cases{display:grid; grid-template-columns:repeat(2,1fr); gap:20px;}
+.case-card{
+  background:#fff; border:1px solid var(--line); border-left:5px solid var(--orange);
+  border-radius:var(--radius); padding:26px 28px; box-shadow:var(--shadow);
+}
+.case-card__cat{
+  display:inline-block; font-size:.74rem; letter-spacing:.14em;
+  background:var(--teal); color:#fff; padding:3px 11px; border-radius:999px;
+  font-weight:700; margin-bottom:10px;
+}
+.case-card h3{font-size:1.08rem; color:var(--teal); margin-bottom:10px; line-height:1.55;}
+.case-card p{font-size:.93rem; margin:0; line-height:1.85;}
+@media (max-width:760px){.cases{grid-template-columns:1fr;}}
+
+/* ============================================================
+   6つの設計バランス
+   ============================================================ */
+.balance-grid{
+  display:grid; grid-template-columns:repeat(3, 1fr); gap:20px;
+}
+.balance-item{
+  background:#fff; border:1px solid var(--line); border-radius:var(--radius);
+  padding:24px 22px; box-shadow:var(--shadow);
+  display:flex; flex-direction:column; gap:8px;
+}
+.balance-item__icon{
+  width:50px; height:50px; border-radius:12px; background:var(--cream);
+  display:grid; place-items:center; color:var(--teal); margin-bottom:6px;
+}
+.balance-item h3{font-size:1.1rem; color:var(--teal); margin:0;}
+.balance-item p{font-size:.93rem; color:var(--ink); margin:0;}
+@media (max-width:980px){ .balance-grid{grid-template-columns:repeat(2,1fr);} }
+@media (max-width:560px){ .balance-grid{grid-template-columns:1fr;} }
+
+/* ============================================================
+   お客様の声
+   ============================================================ */
+.voices{display:grid; grid-template-columns:repeat(3,1fr); gap:22px;}
+.voice-card{
+  background:#fff; border:1px solid var(--line); border-radius:var(--radius);
+  padding:26px 24px; box-shadow:var(--shadow); position:relative;
+}
+.voice-card::before{
+  content:"“"; position:absolute; top:6px; left:18px;
+  font-family:var(--serif); font-size:3.5rem; color:var(--orange); line-height:1; opacity:.55;
+}
+.voice-card__body{padding-top:24px; font-size:.95rem; color:var(--ink);}
+.voice-card__meta{
+  margin-top:14px; padding-top:14px; border-top:1px solid var(--line);
+  font-size:.85rem; color:var(--muted);
+}
+.voice-card__meta strong{color:var(--teal); display:block; font-size:.95rem; margin-bottom:2px;}
+.voice-card--empty{
+  background:repeating-linear-gradient(45deg, #fafaf6 0 12px, #f3efe5 12px 24px);
+  border:1.5px dashed #b9ad96; box-shadow:none;
+  min-height:180px; display:flex; align-items:center; justify-content:center;
+}
+.voice-card--empty::before{display:none;}
+.voice-card__placeholder{text-align:center; color:#8a7f6b; padding:12px;}
+.voice-card__placeholder span{display:inline-grid; place-items:center; opacity:.5; margin-bottom:8px;}
+.voice-card__placeholder p{margin:0 0 4px; font-weight:700; font-size:1rem;}
+.voice-card__placeholder small{display:block; font-size:.8rem; opacity:.85;}
+@media (max-width:980px){ .voices{grid-template-columns:1fr;} }
+
+/* ============================================================
+   よくあるご質問（FAQ）
+   ============================================================ */
+.faq{max-width:880px; margin:0 auto;}
+.faq details{
+  background:#fff; border:1px solid var(--line); border-radius:var(--radius);
+  margin-bottom:14px; box-shadow:0 4px 14px rgba(15,44,54,.05);
+  overflow:hidden;
+}
+.faq summary{
+  list-style:none; cursor:pointer; padding:20px 56px 20px 24px;
+  font-weight:700; color:var(--teal); font-size:1.02rem; position:relative;
+}
+.faq summary::-webkit-details-marker{display:none;}
+.faq summary::before{
+  content:"Q"; display:inline-grid; place-items:center;
+  width:28px; height:28px; border-radius:50%;
+  background:var(--orange); color:#fff; font-family:var(--serif);
+  font-size:.95rem; margin-right:12px; vertical-align:middle;
+}
+.faq summary::after{
+  content:""; position:absolute; right:24px; top:50%;
+  width:12px; height:12px; border-right:2px solid var(--teal); border-bottom:2px solid var(--teal);
+  transform:translateY(-70%) rotate(45deg); transition:transform .2s;
+}
+.faq details[open] summary::after{ transform:translateY(-30%) rotate(-135deg); }
+.faq__answer{
+  padding:0 24px 22px 64px; font-size:.95rem; color:var(--ink); line-height:1.85;
+}
+
+/* ============================================================
+   ご相談の流れ
    ============================================================ */
 .steps{
-  display:grid; grid-template-columns:repeat(4, 1fr); gap:20px; counter-reset:step;
+  display:grid; grid-template-columns:repeat(3, 1fr); gap:20px; counter-reset:step;
 }
 .step{
   background:#fff; border:1px solid var(--line); border-radius:var(--radius);
@@ -378,33 +545,25 @@ select:focus-visible, textarea:focus-visible{
 }
 .step h3{font-size:1.08rem; color:var(--teal); margin-bottom:8px;}
 .step p{font-size:.9rem; color:var(--muted); margin:0;}
-/* PCでステップ間に矢印 */
-.step:not(:last-child)::after{
+/* PCでステップ間に矢印（3列レイアウト：3n番目には付けない） */
+.step:not(:last-child):not(:nth-child(3n))::after{
   content:"›"; position:absolute; top:50%; right:-15px; transform:translateY(-50%);
   font-size:2rem; color:var(--orange); font-weight:700; z-index:2;
 }
 
 /* ============================================================
-   ⑦ 会社概要（表）
+   会社概要・アクセス
    ============================================================ */
 .company{display:grid; grid-template-columns:1.1fr 1fr; gap:40px; align-items:start;}
 .info-table{width:100%; border-collapse:collapse; background:#fff; border-radius:var(--radius); overflow:hidden; box-shadow:var(--shadow);}
 .info-table th, .info-table td{text-align:left; padding:16px 20px; border-bottom:1px solid var(--line); font-size:.97rem; vertical-align:top;}
 .info-table tr:last-child th, .info-table tr:last-child td{border-bottom:none;}
 .info-table th{width:34%; background:var(--cream); color:var(--teal); font-weight:700; white-space:nowrap;}
-
-/* ============================================================
-   ⑧ アクセス
-   ============================================================ */
-.access{display:grid; grid-template-columns:1fr 1.2fr; gap:36px; align-items:stretch;}
-.access__info{display:flex; flex-direction:column; gap:14px;}
-.access__info dt{font-size:.78rem; letter-spacing:.12em; color:var(--orange-dark); font-weight:700;}
-.access__info dd{margin:0 0 6px; font-size:1.05rem;}
-.map-embed{border:0; width:100%; height:100%; min-height:340px; border-radius:var(--radius); box-shadow:var(--shadow);}
+.map-embed{border:0; width:100%; min-height:380px; border-radius:var(--radius); box-shadow:var(--shadow);}
 .map-card{overflow:hidden; border-radius:var(--radius);}
 
 /* ============================================================
-   ⑨ お問い合わせ（CV）
+   お問い合わせ（CV）
    ============================================================ */
 .contact{background:var(--teal); color:#fff;}
 .contact .section-title{color:#fff;}
@@ -439,7 +598,7 @@ select:focus-visible, textarea:focus-visible{
 .form-status.ok{color:#1e7d4f;}
 
 /* ============================================================
-   ⑩ フッター
+   フッター
    ============================================================ */
 .site-footer{background:var(--teal-deep); color:rgba(255,255,255,.86); padding:54px 0 28px; font-size:.92rem;}
 .footer-grid{display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:34px; margin-bottom:34px;}
@@ -451,7 +610,23 @@ select:focus-visible, textarea:focus-visible{
 .footer-nav a:hover, .footer-links a:hover{color:var(--orange); text-decoration:underline;}
 .footer-addr{margin:14px 0 0; line-height:1.8;}
 .footer-addr a{color:#fff; font-weight:700; text-decoration:none;}
-.copyright{border-top:1px solid rgba(255,255,255,.15); padding-top:20px; font-size:.82rem; color:rgba(255,255,255,.6);}
+.footer-bottom{
+  border-top:1px solid rgba(255,255,255,.15); padding-top:20px;
+  display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:14px;
+}
+.legal-nav{
+  list-style:none; padding:0; margin:0;
+  display:flex; flex-wrap:wrap; gap:18px;
+}
+.legal-nav a{
+  color:rgba(255,255,255,.78); text-decoration:none; font-size:.85rem;
+}
+.legal-nav a:hover{color:var(--orange); text-decoration:underline;}
+.copyright{font-size:.82rem; color:rgba(255,255,255,.6);}
+.form-privacy{
+  font-size:.8rem; color:var(--muted); margin:14px 0 0; line-height:1.7;
+}
+.form-privacy a{color:var(--teal); font-weight:700;}
 
 /* ============================================================
    モバイル固定バー（画面下部・電話/お問い合わせ）
@@ -471,8 +646,9 @@ select:focus-visible, textarea:focus-visible{
   .values{grid-template-columns:repeat(2,1fr);}
   .service-grid{grid-template-columns:1fr;}
   .steps{grid-template-columns:repeat(2,1fr);}
-  .step:not(:last-child)::after{display:none;}
-  .company, .access, .contact-grid{grid-template-columns:1fr;}
+  .step:not(:last-child)::after,
+  .step:not(:last-child):not(:nth-child(3n))::after{display:none;}
+  .company, .contact-grid{grid-template-columns:1fr;}
   .footer-grid{grid-template-columns:1fr 1fr;}
 }
 @media (max-width:760px){
@@ -508,12 +684,9 @@ select:focus-visible, textarea:focus-visible{
 <body>
 <a class="skip-link" href="#main">本文へスキップ</a>
 
-<!-- ============================================================
-     ① ヘッダー（sticky）：ロゴ ＋ 電話 ＋ お問い合わせ ＋ ナビ
-     ============================================================ -->
+<!-- ヘッダー -->
 <header class="site-header">
   <div class="header-inner">
-    <!-- ロゴ枠：実ロゴ（約200×60px）が届いたら、この <a> の中身を <img alt="株式会社大吉工務店"> に差し替え -->
     <a class="logo" href="#hero" aria-label="株式会社大吉工務店 トップへ">
       <span class="logo__mark" aria-hidden="true">大</span>
       <span class="logo__text">
@@ -525,7 +698,6 @@ select:focus-visible, textarea:focus-visible{
     <span class="header-spacer"></span>
 
     <div class="header-contact">
-      <!-- 電話：tel発信。受付時間はプレースホルダー -->
       <a class="header-tel" href="tel:0339311151">
         <span class="header-tel__label">お電話でのご相談</span>
         <span class="header-tel__num">
@@ -537,21 +709,21 @@ select:focus-visible, textarea:focus-visible{
       <a class="btn btn-cta header-cta" href="#contact">お問い合わせ</a>
     </div>
 
-    <!-- モバイル用ナビ開閉ボタン -->
     <button class="nav-toggle" id="navToggle" aria-label="メニューを開く" aria-expanded="false" aria-controls="siteNav">
       <span aria-hidden="true"></span>
     </button>
   </div>
 
-  <!-- ナビ：ページ内アンカー（スムーススクロール） -->
   <nav class="site-nav" id="siteNav" aria-label="サイト内ナビゲーション">
     <div class="nav-inner">
-      <a href="#values">会社の強み</a>
+      <a href="#message">代表挨拶</a>
+      <a href="#values">弊社の強み</a>
       <a href="#services">対応業務</a>
-      <a href="#gallery">施工実績</a>
+      <a href="#balance">設計の考え方</a>
       <a href="#flow">ご相談の流れ</a>
+      <a href="#works">施工事例</a>
+      <a href="#faq">よくあるご質問</a>
       <a href="#company">会社概要</a>
-      <a href="#access">アクセス</a>
       <a href="#contact">お問い合わせ</a>
     </div>
   </nav>
@@ -559,21 +731,22 @@ select:focus-visible, textarea:focus-visible{
 
 <main id="main">
 
-  <!-- ============================================================
-       ② ヒーロー（メインビジュアル）
-       ============================================================ -->
+  <!-- ヒーロー -->
   <section class="hero" id="hero">
     <div class="hero__bg" aria-hidden="true"></div>
     <div class="hero__scrim" aria-hidden="true"></div>
-    <!-- 背景写真が未設定の間だけ表示される注記（実画像設定後に削除可） -->
-    <span class="hero__phnote" aria-hidden="true">【ヒーロー背景写真 16:9／1920×900px をここに】</span>
 
     <div class="hero__inner">
-      <span class="hero__eyebrow">練馬区北町・地域密着のリフォーム</span>
-      <h1 class="hero__title">練馬の住まいを、<br>ずっと快適に。</h1>
-      <p class="hero__sub">窓・断熱から水回り、外壁まで。地域密着の大吉工務店が、一戸建て・マンションのリフォームを丁寧にお手伝いします。</p>
+      <span class="hero__eyebrow">練馬区北町・建築一式工事の許可を持つ地域密着の工務店</span>
+      <h1 class="hero__title">練馬の住まいを、<br>新築からリフォームまで。</h1>
+      <p class="hero__sub">新築・増築から、改築・耐震補強まで、住まいの工事は地域密着の大吉工務店にお任せください。</p>
+      <ul class="hero__badges" aria-label="主な特徴">
+        <li><span aria-hidden="true">✓</span> 練馬区北町・地域密着</li>
+        <li><span aria-hidden="true">✓</span> 東京都知事許可 第011580号</li>
+        <li><span aria-hidden="true">✓</span> ご相談はお気軽にどうぞ</li>
+      </ul>
       <div class="hero__cta">
-        <a class="btn btn-cta" href="#contact">お問い合わせはこちら</a>
+        <a class="btn btn-cta" href="#contact">無料相談・お見積りはこちら</a>
         <a class="btn btn-tel" href="tel:0339311151">
           <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
           お電話：03-3931-1151
@@ -582,14 +755,41 @@ select:focus-visible, textarea:focus-visible{
     </div>
   </section>
 
-  <!-- ============================================================
-       ③ 選ばれる理由（4つの価値）
-       ============================================================ -->
+  <!-- 代表挨拶 -->
+  <section class="section" id="message">
+    <div class="wrap">
+      <p class="eyebrow">代表挨拶</p>
+      <h2 class="section-title">「ずっと住み続けたい」を、地元・練馬で支え続ける。</h2>
+      <p class="service-disclaimer">
+        <strong>※掲載可否のご確認をお願いします：</strong>
+        このセクション全体は、架空の「代表様ご挨拶」となります。貴社ご確認の上、修正させていただきます。
+      </p>
+
+      <div class="message">
+        <div class="message__rep">
+          <div class="message__avatar" aria-hidden="true">大吉</div>
+          <div class="message__name">河合 文子</div>
+          <div class="message__title">株式会社大吉工務店 代表</div>
+        </div>
+        <div class="message__body">
+          <p>このたびは数あるホームページの中から、当社のページをご覧いただき誠にありがとうございます。<strong>株式会社大吉工務店</strong>は、東京都練馬区北町に拠点を置き、地域の皆さまの住まいを長きにわたり支えてまいりました。</p>
+          <p>私たちが何よりも大切にしているのは、<strong>「住まう方の暮らしに、誠実に寄り添う」</strong>こと。新築のお住まいづくりから、増築・改築・減築、耐震補強、そして窓・断熱・水回り・外壁といったリフォームまで、住まいに関するあらゆるご相談にお応えできるよう、建築一式工事の建設業許可を取得し、ひとつひとつのご依頼を丁寧にお引き受けしております。</p>
+          <p>住宅の工事は、お客様にとって人生の中でも大きな決断です。だからこそ、私たちは「<strong>聞く・伝える・残す</strong>」を徹底し、ご要望を細やかに伺い、施工内容を分かりやすくお伝えし、お引き渡し後も末永くお付き合いさせていただきます。練馬区にお住まいで、住まいのことでお悩みの方は、どうぞ安心してご相談ください。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 選ばれる理由 -->
   <section class="section section--cream" id="values">
     <div class="wrap">
       <p class="eyebrow">選ばれる理由</p>
-      <h2 class="section-title">地元の住まいに、長くお付き合いできる理由。</h2>
-      <p class="section-lead">大吉工務店が練馬の皆さまに選んでいただいている、4つの特長をご紹介します。</p>
+      <h2 class="section-title">長くお付き合いいただける4つの理由。</h2>
+      <p class="section-lead">大吉工務店が地元のお客様から信頼をいただいている理由を、4つの観点からお伝えします。新築からリフォームまで、住まいに関するご相談はワンストップでお応えします。</p>
+      <p class="service-disclaimer">
+        <strong>※掲載可否のご確認をお願いします：</strong>
+        このセクション全体は、弊社の考える「選ばれる理由」となります。貴社ご確認の上、修正させていただきます。
+      </p>
 
       <div class="values">
         <article class="value-card">
@@ -597,8 +797,8 @@ select:focus-visible, textarea:focus-visible{
           <span class="value-card__icon" aria-hidden="true">
             <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
           </span>
-          <h3>地域密着</h3>
-          <p>練馬区北町を拠点に、地元の住まいを末永くサポート。東武練馬駅から徒歩約8分、すぐにご相談いただけます。</p>
+          <h3>地域密着の安心感</h3>
+          <p>練馬区北町を拠点に、地元の住まいを末永くサポート。東武練馬駅 南口から徒歩約8分。何かあればすぐに駆けつけられる距離で、お引き渡し後の小さな相談にも対応いたします。</p>
         </article>
 
         <article class="value-card">
@@ -606,8 +806,8 @@ select:focus-visible, textarea:focus-visible{
           <span class="value-card__icon" aria-hidden="true">
             <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l8 3v5c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-3Z"/><path d="m9 11 2 2 4-4"/></svg>
           </span>
-          <h3>安心</h3>
-          <p>建築一式工事の建設業許可を取得。許可を持つ会社として、責任をもって施工します。</p>
+          <h3>建設業許可を取得</h3>
+          <p>東京都知事許可 第011580号（建築一式工事）を取得した工務店として、新築・増改築・減築・耐震補強までお引き受け。法令を遵守し、責任をもって最後まで施工いたします。</p>
         </article>
 
         <article class="value-card">
@@ -615,8 +815,8 @@ select:focus-visible, textarea:focus-visible{
           <span class="value-card__icon" aria-hidden="true">
             <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 4l6 6-9 9H5v-6l9-9Z"/><path d="M13 5l6 6"/></svg>
           </span>
-          <h3>技術</h3>
-          <p>窓・断熱、水回り、外壁まで幅広い住まいの工事に対応。一戸建てもマンションもお任せください。</p>
+          <h3>新築から リフォーム まで対応</h3>
+          <p>新築工事から増築・改築・減築、耐震補強といったリフォームまでワンストップ。一戸建て・マンションどちらにも対応し、住まいの「困った」をまとめてご相談いただけます。</p>
         </article>
 
         <article class="value-card">
@@ -624,122 +824,178 @@ select:focus-visible, textarea:focus-visible{
           <span class="value-card__icon" aria-hidden="true">
             <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 11l9-8 9 8"/><path d="M5 10v9h14v-9"/><path d="M9 19v-5h6v5"/></svg>
           </span>
-          <h3>丁寧な対応</h3>
-          <p>暮らしに寄り添い、ご要望をしっかり伺ってからご提案。小さな工事もお気軽にご相談ください。</p>
+          <h3>丁寧なヒアリングと　説明</h3>
+          <p>お客様のご要望や暮らし方を丁寧に伺い、見積り・工事内容を分かりやすくご説明。「相談だけ」「予算感だけ」のお問い合わせも歓迎しております。小さな工事も心を込めて対応いたします。</p>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- ============================================================
-       ④ 対応業務（サービス）
-       ============================================================ -->
+  <!-- 対応業務 -->
   <section class="section" id="services">
     <div class="wrap">
       <p class="eyebrow">対応業務</p>
-      <h2 class="section-title">住まいの“困った”を、幅広く解決します。</h2>
-      <p class="section-lead">大吉工務店は、暮らしの快適さを支える3つの分野を中心に、住まい全般のリフォームに対応します。</p>
+      <h2 class="section-title">新築から リフォームまで、住まいの工事を幅広く。</h2>
+      <p class="section-lead">大吉工務店は建築一式工事の許可を持つ工務店として、新築・増築・改築・減築・耐震補強の建築工事を承っております。それぞれの工事には特有のポイントや注意点があります。私たちは経験を踏まえ、お客様の住まいに最適な工法・提案をご用意します。</p>
 
-      <div class="service-grid">
-        <!-- サービス1：窓・断熱 -->
-        <article class="service-card">
-          <div class="ph ph--4x3">
-            <span>
-              <svg class="ph__icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M12 3v18M4 12h16"/></svg>
-              <span class="ph__cap">【窓・断熱の施工写真】</span>
-              <span class="ph__dim">推奨 4:3</span>
-            </span>
-          </div>
-          <div class="service-card__body">
-            <h3>窓・断熱リフォーム</h3>
-            <p>内窓・サッシ交換や断熱改修で、夏は涼しく冬は暖かい住まいへ。光熱費や結露のお悩みにも対応します。</p>
-          </div>
-        </article>
-
-        <!-- サービス2：水回り -->
-        <article class="service-card">
-          <div class="ph ph--4x3">
-            <span>
-              <svg class="ph__icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 9h18"/><path d="M6 9V6a3 3 0 0 1 6 0"/><path d="M5 9l1 11h12l1-11"/></svg>
-              <span class="ph__cap">【水回りの施工写真】</span>
-              <span class="ph__dim">推奨 4:3</span>
-            </span>
-          </div>
-          <div class="service-card__body">
-            <h3>水回りリフォーム</h3>
-            <p>キッチン・お風呂（浴室）・洗面・トイレなど、毎日使う場所を使いやすく快適に。一戸建て・マンションどちらにも対応します。</p>
-          </div>
-        </article>
-
-        <!-- サービス3：外壁 -->
-        <article class="service-card">
-          <div class="ph ph--4x3">
-            <span>
-              <svg class="ph__icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 21V8l9-5 9 5v13"/><path d="M3 12h18M8 21V12M16 21V12"/></svg>
-              <span class="ph__cap">【外壁の施工写真】</span>
-              <span class="ph__dim">推奨 4:3</span>
-            </span>
-          </div>
-          <div class="service-card__body">
-            <h3>外壁リフォーム</h3>
-            <p>外壁の塗装・補修で、建物を雨風から守り、見た目も一新。住まいの寿命を延ばします。</p>
-          </div>
-        </article>
-      </div>
-
-      <p class="service-note">一戸建て・マンションどちらにも対応。上記以外の住まいの工事もお気軽にご相談ください。</p>
-    </div>
-  </section>
-
-  <!-- ============================================================
-       ⑤ 施工実績ギャラリー
-       実績が用意でき次第、写真とキャプションを差し替えてください。
-       詳細はiタウンページへ誘導も可（下部リンク参照）。
-       ============================================================ -->
-  <section class="section section--cream" id="gallery">
-    <div class="wrap">
-      <p class="eyebrow">施工実績</p>
-      <h2 class="section-title">施工実績</h2>
-      <p class="section-lead">これまでの施工事例の一部をご紹介します。（写真とキャプションは準備でき次第差し替えます）</p>
-
-      <div class="gallery">
-        <!-- ↓ 施工事例写真＋一言キャプション。枚数は3〜6枚で増減可 -->
-        <figure>
-          <div class="ph ph--4x3"><span><span class="ph__cap">【施工事例 写真①】</span><span class="ph__dim">4:3</span></span></div>
-          <figcaption>【一言キャプション（例：練馬区・浴室リフォーム）】</figcaption>
-        </figure>
-        <figure>
-          <div class="ph ph--4x3"><span><span class="ph__cap">【施工事例 写真②】</span><span class="ph__dim">4:3</span></span></div>
-          <figcaption>【一言キャプション】</figcaption>
-        </figure>
-        <figure>
-          <div class="ph ph--4x3"><span><span class="ph__cap">【施工事例 写真③】</span><span class="ph__dim">4:3</span></span></div>
-          <figcaption>【一言キャプション】</figcaption>
-        </figure>
-        <figure>
-          <div class="ph ph--4x3"><span><span class="ph__cap">【施工事例 写真④】</span><span class="ph__dim">4:3</span></span></div>
-          <figcaption>【一言キャプション】</figcaption>
-        </figure>
-        <figure>
-          <div class="ph ph--4x3"><span><span class="ph__cap">【施工事例 写真⑤】</span><span class="ph__dim">4:3</span></span></div>
-          <figcaption>【一言キャプション】</figcaption>
-        </figure>
-        <figure>
-          <div class="ph ph--4x3"><span><span class="ph__cap">【施工事例 写真⑥】</span><span class="ph__dim">4:3</span></span></div>
-          <figcaption>【一言キャプション】</figcaption>
-        </figure>
-      </div>
-
-      <p class="gallery-link">
-        <!-- iタウンページURLは後日差し替え（rel属性は外部リンク用に設定済み） -->
-        <a class="btn btn-ghost" href="【iタウンページURL】" target="_blank" rel="noopener noreferrer">施工実績の詳細はこちら（iタウンページ）</a>
+      <p class="service-disclaimer" role="note">
+        <strong>※掲載可否のご確認をお願いします：</strong>
+        <strong>仮掲載</strong>のため、貴社にて実際の対応可否をご確認ください。
       </p>
+
+      <!-- 新築工事 -->
+      <article class="service-detail">
+        <div class="service-detail__icon" aria-hidden="true">
+          <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21V8l9-5 9 5v13"/><path d="M3 21h18"/><rect x="10" y="14" width="4" height="7"/></svg>
+        </div>
+        <div class="service-detail__body">
+          <h3>新築工事 <span class="tag">一戸建て対応</span></h3>
+          <p class="service-detail__lead">一戸建ての新築工事には、地盤調査・基礎・構造躯体・屋根・外壁・内装・設備と多くの工程があり、それぞれの段階で押さえるべき注意点が存在します。大吉工務店は<strong>居住性・デザイン性・耐震性・耐火性・耐久性・断熱／気密性</strong>の6つのバランスを大切に、長く住み続けられる住まいをご提案します。土地探しの段階からのご相談、間取りのご要望、二世帯住宅、平屋など、まずはお気軽にお声がけください。</p>
+          <ul class="service-detail__items">
+            <li>新築一戸建ての企画・設計から施工まで</li>
+            <li>地盤・基礎・構造躯体の丁寧な施工</li>
+            <li>断熱・気密に配慮した省エネ住宅</li>
+            <li>二世帯住宅・平屋・狭小地住宅にも対応</li>
+            <li>耐震性・耐火性を考慮した構造設計</li>
+            <li>引渡し後のアフターメンテナンスも対応</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- 増築工事 -->
+      <article class="service-detail">
+        <div class="service-detail__icon" aria-hidden="true">
+          <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 12h7V5h4v7h7v4h-7v7h-4v-7H3z"/></svg>
+        </div>
+        <div class="service-detail__body">
+          <h3>増築工事 <span class="tag">床面積を増やす</span></h3>
+          <p class="service-detail__lead">増築工事は、現状の建物を壊さずに床面積を増やす工事です。平屋を2階建てにする、敷地内に新しく建物を作る、既存の住まいに部屋を継ぎ足すなど、状況に応じた工法があります。<strong>建て替えに比べて費用負担を抑えやすい</strong>のが特徴ですが、既存部分との接合部の補強や既存建物の修繕費用が必要となる場合もあります。当社では、既存住宅の構造を丁寧に調査したうえで、無駄のないご提案をいたします。</p>
+          <ul class="service-detail__items">
+            <li>平屋から2階建てへの増築</li>
+            <li>敷地内の新棟建設・離れの設置</li>
+            <li>子ども部屋・趣味室・収納の追加</li>
+            <li>既存建物との接合部の補強</li>
+            <li>確認申請の要否判断・必要な手続き対応</li>
+            <li>建て替えよりも費用を抑えた住まいの拡張</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- 改築工事 -->
+      <article class="service-detail">
+        <div class="service-detail__icon" aria-hidden="true">
+          <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 4h18v6H3z"/><path d="M3 14h18v6H3z"/><path d="M9 4v6M15 14v6"/></svg>
+        </div>
+        <div class="service-detail__body">
+          <h3>改築工事 <span class="tag">間取り変更</span></h3>
+          <p class="service-detail__lead">改築工事は、床面積を変えずに間取りを変更する工事です。家族構成の変化や暮らし方の変化に合わせて、住まいの中身を作り変えることができます。火災や災害などで失われた建物を、規模・構造ともに以前とほぼ同じ形で建て直すケースも改築に含まれます。当社では、構造体の制約を踏まえながら、暮らしやすさを最大限引き出す間取りをご提案します。</p>
+          <ul class="service-detail__items">
+            <li>家族構成の変化に合わせた間取り変更</li>
+            <li>LDK化・水回り集約などの動線改善</li>
+            <li>滅失建物の再建（規模・構造ほぼ同等）</li>
+            <li>耐震性・断熱性も併せて向上</li>
+            <li>マンションのフルリノベーションにも対応</li>
+            <li>構造を踏まえた現実的な提案</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- 減築工事 -->
+      <article class="service-detail">
+        <div class="service-detail__icon" aria-hidden="true">
+          <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14"/><rect x="3" y="3" width="18" height="18" rx="1"/></svg>
+        </div>
+        <div class="service-detail__body">
+          <h3>減築工事 <span class="tag">床面積を減らす</span></h3>
+          <p class="service-detail__lead">減築工事は、住まいの床面積を減らすリフォームです。お子様の独立や定年退職など、ライフスタイルの変化に応じて、使わない部屋を整理し、よりコンパクトで暮らしやすい住まいへと作り変えます。光熱費・固定資産税の負担軽減、お掃除のしやすさ、耐震性の向上といったメリットがある一方、解体・補修費用が発生します。<strong>どのような間取りにするかを丁寧に計画することがポイント</strong>です。</p>
+          <ul class="service-detail__items">
+            <li>使わない2階・離れの解体</li>
+            <li>シニア世代向けの平屋化</li>
+            <li>掃除・冷暖房の効率改善</li>
+            <li>耐震性能の向上</li>
+            <li>光熱費・税負担の軽減</li>
+            <li>解体後の補修・防水まで一貫対応</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- 耐震補強工事 -->
+      <article class="service-detail">
+        <div class="service-detail__icon" aria-hidden="true">
+          <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 3v5c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-3Z"/><path d="m9 11 2 2 4-4"/></svg>
+        </div>
+        <div class="service-detail__body">
+          <h3>耐震補強工事 <span class="tag">補助金制度あり</span></h3>
+          <p class="service-detail__lead">地震の多い日本において、耐震補強は重要度の高い工事のひとつです。築年数の経った住まいや、旧耐震基準（昭和56年5月以前）で建てられた住まいでは、特に検討をおすすめします。近年は国や自治体の<strong>補助金・助成金制度</strong>も拡充され、施工例が増えています。当社では基礎・構造・接合部・壁量バランスを総合的に確認し、必要な箇所に的確な補強を施します。</p>
+          <ul class="service-detail__items">
+            <li>耐震診断・現地調査</li>
+            <li>基礎の補強・補修</li>
+            <li>壁量バランスの改善・耐震壁の追加</li>
+            <li>柱・梁・接合部の金物補強</li>
+            <li>屋根の軽量化による地震負荷の低減</li>
+            <li>自治体の補助金・助成金制度のご案内</li>
+          </ul>
+        </div>
+      </article>
+      <p class="service-note">上記以外にも、住まいに関するさまざまな工事に対応します。「これは頼めるかな？」と迷われた段階で、お気軽にご相談ください。</p>
     </div>
   </section>
 
-  <!-- ============================================================
-       ⑥ ご相談の流れ（4ステップ）
-       ============================================================ -->
+  <!-- 設計の考え方（6つのバランス） -->
+  <section class="section section--cream" id="balance">
+    <div class="wrap">
+      <p class="eyebrow">設計の考え方</p>
+      <h2 class="section-title">6つのバランスで、長く快適に住まえる家を。</h2>
+      <p class="section-lead">大吉工務店では、新築・リフォームのどちらにおいても、以下6つの性能をバランスよく満たすことを大切にしています。「どれかひとつだけ」ではなく、すべてを丁寧に積み上げた住まいをご提案します。</p>
+
+      <div class="balance-grid">
+        <div class="balance-item">
+          <span class="balance-item__icon" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 11l9-8 9 8"/><path d="M5 10v9h14v-9"/></svg>
+          </span>
+          <h3>居住性</h3>
+          <p>動線・採光・収納を細やかに設計し、毎日の暮らしやすさを追求します。</p>
+        </div>
+        <div class="balance-item">
+          <span class="balance-item__icon" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3 6 6 1-4.5 4.5L18 20l-6-3-6 3 1.5-6.5L3 9l6-1z"/></svg>
+          </span>
+          <h3>デザイン性</h3>
+          <p>住まう方の好みに寄り添い、内外装の意匠を丁寧にご提案します。</p>
+        </div>
+        <div class="balance-item">
+          <span class="balance-item__icon" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l8 3v5c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-3Z"/></svg>
+          </span>
+          <h3>耐震性</h3>
+          <p>地震に強い構造で、新築・補強の両面から安心の住まいをつくります。</p>
+        </div>
+        <div class="balance-item">
+          <span class="balance-item__icon" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2s4 5 4 9a4 4 0 1 1-8 0c0-4 4-9 4-9z"/></svg>
+          </span>
+          <h3>耐火性</h3>
+          <p>火災に強い建材・仕様を選定し、もしもの備えにも配慮します。</p>
+        </div>
+        <div class="balance-item">
+          <span class="balance-item__icon" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          </span>
+          <h3>耐久性</h3>
+          <p>長く住み続けられる素材選びと施工で、住まいの寿命を延ばします。</p>
+        </div>
+        <div class="balance-item">
+          <span class="balance-item__icon" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12c4-4 12-4 16 0M4 18c4-4 12-4 16 0M4 6c4-4 12-4 16 0"/></svg>
+          </span>
+          <h3>断熱・気密性</h3>
+          <p>夏涼しく冬暖かい、光熱費も抑えられる省エネな住まいをご提案します。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ご相談の流れ -->
   <section class="section" id="flow">
     <div class="wrap">
       <p class="eyebrow">ご相談の流れ</p>
@@ -750,114 +1006,299 @@ select:focus-visible, textarea:focus-visible{
         <div class="step">
           <div class="step__no" aria-hidden="true">1</div>
           <h3>お問い合わせ</h3>
-          <p>お電話またはフォームから、お気軽にご連絡ください。</p>
+          <p>お電話・フォームよりご連絡ください。内容が決まっていない段階でもOKです。</p>
         </div>
         <div class="step">
           <div class="step__no" aria-hidden="true">2</div>
           <h3>現地調査・ヒアリング</h3>
-          <p>現地を拝見し、ご要望やお困りごとを丁寧に伺います。</p>
+          <p>ご都合の良い日時にお伺いし、現状を拝見しながらご要望を丁寧に伺います。</p>
         </div>
         <div class="step">
           <div class="step__no" aria-hidden="true">3</div>
           <h3>お見積り・ご提案</h3>
-          <p>調査をもとに、内容とお見積りをわかりやすくご提案します。</p>
+          <p>調査内容を踏まえ、工事内容・金額・工期を分かりやすい書面でご提案します。</p>
         </div>
         <div class="step">
           <div class="step__no" aria-hidden="true">4</div>
-          <h3>施工・お引き渡し</h3>
-          <p>ご納得いただいたうえで施工し、お引き渡しいたします。</p>
+          <h3>ご契約・着工</h3>
+          <p>内容にご納得いただきましたらご契約。近隣ご挨拶を経て安全に着工いたします。</p>
         </div>
+        <div class="step">
+          <div class="step__no" aria-hidden="true">5</div>
+          <h3>施工中ご報告</h3>
+          <p>工事中は進捗をご報告。気になる点はいつでもお声がけいただけます。</p>
+        </div>
+        <div class="step">
+          <div class="step__no" aria-hidden="true">6</div>
+          <h3>お引き渡し・アフター</h3>
+          <p>仕上がりをご確認のうえお引き渡し。お引き渡し後の小さなご相談にも対応します。</p>
+        </div>
+      </div>
+
+      <p class="service-note">※工事内容・規模により期間は異なります。（緊急時はご相談ください）</p>
+    </div>
+  </section>
+
+  <!-- 施工事例 -->
+  <section class="section section--cream" id="works">
+    <div class="wrap">
+      <p class="eyebrow">施工事例</p>
+      <h2 class="section-title">これまでの施工事例（Before / After）</h2>
+      <p class="section-lead">大吉工務店がお手伝いした住まいの工事を、着工前と完成後の写真とともにご紹介します。</p>
+      <p class="service-disclaimer">
+        <strong>※準備中：</strong>
+        本セクションは「実際の施工事例の写真・工期・費用感」をご用意いただいたうえで公開する想定の枠です。現状は構成イメージのみ表示しています。実際の事例写真・データをいただき次第、差し替えのうえ対応させていただきます。      </p>
+
+      <div class="works">
+        <!-- 仮事例 1 -->
+        <article class="work-card">
+          <div class="work-card__ba">
+            <div class="ph" data-label="Before"><span><span class="ph__cap">【着工前 写真】</span></span></div>
+            <div class="ph" data-label="After"><span><span class="ph__cap">【完成後 写真】</span></span></div>
+          </div>
+          <div class="work-card__body">
+            <span class="work-card__cat">施工事例 ①</span>
+            <h3>【工事タイトル：例「練馬区・浴室リフォーム」】</h3>
+            <p style="font-size:.92rem; margin:0; color:var(--ink);">【工事概要：使用設備・お客様のご要望・施工のポイントなど 2〜3行】</p>
+            <ul class="work-card__meta">
+              <li><strong>工期</strong>例：約○日</li>
+              <li><strong>費用感</strong>例：○○万円〜</li>
+            </ul>
+          </div>
+        </article>
+        <!-- 仮事例 2 -->
+        <article class="work-card">
+          <div class="work-card__ba">
+            <div class="ph" data-label="Before"><span><span class="ph__cap">【着工前 写真】</span></span></div>
+            <div class="ph" data-label="After"><span><span class="ph__cap">【完成後 写真】</span></span></div>
+          </div>
+          <div class="work-card__body">
+            <span class="work-card__cat">施工事例 ②</span>
+            <h3>【工事タイトル：例「板橋区・外壁塗装」】</h3>
+            <p style="font-size:.92rem; margin:0; color:var(--ink);">【工事概要：2〜3行】</p>
+            <ul class="work-card__meta">
+              <li><strong>工期</strong>例：約○日</li>
+              <li><strong>費用感</strong>例：○○万円〜</li>
+            </ul>
+          </div>
+        </article>
+        <!-- 仮事例 3 -->
+        <article class="work-card">
+          <div class="work-card__ba">
+            <div class="ph" data-label="Before"><span><span class="ph__cap">【着工前 写真】</span></span></div>
+            <div class="ph" data-label="After"><span><span class="ph__cap">【完成後 写真】</span></span></div>
+          </div>
+          <div class="work-card__body">
+            <span class="work-card__cat">施工事例 ③</span>
+            <h3>【工事タイトル：例「練馬区・耐震補強工事」】</h3>
+            <p style="font-size:.92rem; margin:0; color:var(--ink);">【工事概要：2〜3行】</p>
+            <ul class="work-card__meta">
+              <li><strong>工期</strong>例：約○日</li>
+              <li><strong>費用感</strong>例：○○万円〜</li>
+            </ul>
+          </div>
+        </article>
       </div>
     </div>
   </section>
 
-  <!-- ============================================================
-       ⑦ 会社概要（第1章の会社情報を正確に反映）
-       ============================================================ -->
+  <!-- よくあるご依頼例 -->
+  <section class="section" id="gallery">
+    <div class="wrap">
+      <p class="eyebrow">よくあるご依頼例</p>
+      <h2 class="section-title">こんなお悩み・ご相談を多くいただいています。</h2>
+      <p class="section-lead">大吉工務店に寄せられるご依頼の一例をまとめました。「これって頼めるのかな？」と迷われた段階でも、まずは現状をお聞かせください。プロの視点で最適な選択肢をご提案いたします。</p>
+      <p class="service-disclaimer">
+        <strong>※掲載可否のご確認をお願いします：</strong>
+        このセクション全体は、架空の「お悩み・ご相談」となります。貴社ご確認の上、修正させていただきます。
+      </p>
+
+      <div class="cases">
+        <article class="case-card">
+          <span class="case-card__cat">新築工事</span>
+          <h3>「親から譲り受けた土地に、ゆったり住める家を建てたい」</h3>
+          <p>解体・地盤調査から設計・施工までワンストップで対応。間取り・予算・将来のライフスタイルまでじっくり伺い、長く快適に住まえる家をご提案します。</p>
+        </article>
+        <article class="case-card">
+          <span class="case-card__cat">増築工事</span>
+          <h3>「家族が増えたので、子ども部屋を増やしたい」</h3>
+          <p>平屋を2階建てに、または1階部分を継ぎ足すなど、敷地条件・既存建物の状態を見たうえで最適な工法をご提案。建て替えよりも費用を抑えた住まいの拡張が可能です。</p>
+        </article>
+        <article class="case-card">
+          <span class="case-card__cat">改築工事</span>
+          <h3>「築40年の家を、暮らしやすい間取りに作り変えたい」</h3>
+          <p>細かく仕切られた間取りをLDK化、水回りを集約して動線を改善。同時に耐震・断熱もご検討いただくと、より長く安心して住まえる住まいになります。</p>
+        </article>
+        <article class="case-card">
+          <span class="case-card__cat">減築工事</span>
+          <h3>「子どもが独立し、夫婦2人で暮らしやすくしたい」</h3>
+          <p>使わなくなった2階部分を解体して平屋化、または部屋数を減らしてコンパクトに。冷暖房効率・固定資産税・お掃除の負担が減り、ご夫婦の暮らしに最適化できます。</p>
+        </article>
+        <article class="case-card">
+          <span class="case-card__cat">耐震補強</span>
+          <h3>「旧耐震基準の家。地震が心配で補強を検討したい」</h3>
+          <p>耐震診断のうえ、基礎・壁量・接合部・屋根の軽量化など必要な箇所に的確に補強。練馬区など自治体の補助金・助成金制度の活用もご案内します。</p>
+        </article>
+        <article class="case-card">
+          <span class="case-card__cat">窓・断熱</span>
+          <h3>「冬の寒さ・結露・光熱費の高さに悩んでいる」</h3>
+          <p>内窓・断熱サッシの設置で、冬の寒さと結露が大きく改善。国の「先進的窓リノベ」など補助金対象工事も多く、想像より少ない負担で快適性が手に入ります。</p>
+        </article>
+        <article class="case-card">
+          <span class="case-card__cat">水回り</span>
+          <h3>「お風呂が寒い・古い。家族のために新しくしたい」</h3>
+          <p>断熱性能の高いユニットバスへの入替え、ヒートショック対策、跨ぎやすい浴槽など、ご高齢のご家族にも安心の浴室をご提案。在来浴室からの改修も対応します。</p>
+        </article>
+        <article class="case-card">
+          <span class="case-card__cat">外壁</span>
+          <h3>「外壁のひび・色褪せが気になってきた」</h3>
+          <p>塗装・シーリング打ち替え・サイディング張替えなど、状態に応じた最適な方法をご提案。屋根・ベランダ防水もまとめて施工することで足場代の節約にもつながります。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- よくあるご質問 -->
+  <section class="section section--cream" id="faq">
+    <div class="wrap">
+      <p class="eyebrow">よくあるご質問</p>
+      <h2 class="section-title">よくあるご質問</h2>
+      <p class="section-lead">お問い合わせ前に多くお寄せいただくご質問をまとめました。ここにない内容も、お気軽にお問い合わせください。</p>
+
+      <div class="faq">
+        <details>
+          <summary>相談・見積りに費用はかかりますか？<span style="font-size:.7rem; background:#FFE8C2; color:#7A3F12; padding:2px 8px; border-radius:999px; margin-left:8px; border:1px dashed #C7652A;">要確認</span></summary>
+          <div class="faq__answer">ご相談・現地調査・お見積りはお気軽にご依頼いただけます。「予算感だけ知りたい」「他社と比較したい」といったご相談も歓迎しています。費用が発生する場合は事前に必ずお伝えしますので、ご安心ください。</div>
+        </details>
+        <details>
+          <summary>対応エリアはどこまでですか？<span style="font-size:.7rem; background:#FFE8C2; color:#7A3F12; padding:2px 8px; border-radius:999px; margin-left:8px; border:1px dashed #C7652A;">要確認</span></summary>
+          <div class="faq__answer">練馬区を中心に、板橋区・豊島区・中野区・杉並区・北区・新宿区など東京23区の北西エリアに広く対応しております。それ以外の地域でも、内容によってはご相談に応じておりますので、まずはお問い合わせください。</div>
+        </details>
+        <details>
+          <summary>マンションでもリフォームできますか？<span style="font-size:.7rem; background:#FFE8C2; color:#7A3F12; padding:2px 8px; border-radius:999px; margin-left:8px; border:1px dashed #C7652A;">要確認</span></summary>
+          <div class="faq__answer">はい、対応可能です。なお、管理組合への届け出・申請が必要なケースが多いため、まずは管理規約を確認し、どこまで工事可能かを把握したうえでご相談いただけますと幸いです。</div>
+        </details>
+        <details>
+          <summary>とても小さな工事でもお願いできますか？<span style="font-size:.7rem; background:#FFE8C2; color:#7A3F12; padding:2px 8px; border-radius:999px; margin-left:8px; border:1px dashed #C7652A;">要確認</span></summary>
+          <div class="faq__answer">はい、もちろん対応いたします。建具の調整・水栓の交換・網戸の張替えといった小さなご依頼も、地域の工務店として喜んで承ります。「こんな小さなことを頼んでいいの？」とためらわずに、まずはご相談ください。</div>
+        </details>
+        <details>
+          <summary>新築の依頼もできますか？<span style="font-size:.7rem; background:#FFE8C2; color:#7A3F12; padding:2px 8px; border-radius:999px; margin-left:8px; border:1px dashed #C7652A;">要確認</span></summary>
+          <div class="faq__answer">はい、建築一式工事の建設業許可を取得しており、一戸建ての新築工事にも対応しております。土地探しの段階や、住宅ローンの相談からでもお話を伺います。「居住性・デザイン性・耐震性・耐火性・耐久性・断熱／気密性」のバランスを大切にした家づくりをご提案します。</div>
+        </details>
+        <details>
+          <summary>築年数の古い家の耐震が心配です。対応できますか？<span style="font-size:.7rem; background:#FFE8C2; color:#7A3F12; padding:2px 8px; border-radius:999px; margin-left:8px; border:1px dashed #C7652A;">要確認</span></summary>
+          <div class="faq__answer">はい、耐震補強工事にも対応しております。まずは現地を拝見し、築年数・構造・基礎・接合部の状態を踏まえて最適な補強方法をご提案いたします。旧耐震基準（昭和56年5月以前）のお住まいの場合は、自治体の助成金が活用できる可能性がありますので、あわせてご案内いたします。</div>
+        </details>
+        <details>
+          <summary>補助金・助成金は使えますか？<span style="font-size:.7rem; background:#FFE8C2; color:#7A3F12; padding:2px 8px; border-radius:999px; margin-left:8px; border:1px dashed #C7652A;">要確認</span></summary>
+          <div class="faq__answer">耐震補強、内窓・断熱改修、バリアフリー化、子育て世帯のリフォームなど、国や東京都・練馬区の補助金・助成金の対象になることがあります。条件・申請のサポートも当社で対応可能ですので、お気軽にご相談ください。</div>
+        </details>
+        <details>
+          <summary>工事中の生活はどうなりますか？<span style="font-size:.7rem; background:#FFE8C2; color:#7A3F12; padding:2px 8px; border-radius:999px; margin-left:8px; border:1px dashed #C7652A;">要確認</span></summary>
+          <div class="faq__answer">部分的なリフォーム（水回り単体・外壁・内窓など）の場合は、お住まいのまま施工可能なケースが多いです。大規模な工事の場合は仮住まいが必要になることもありますので、事前に工事内容に応じてご案内いたします。お子様・ご高齢の方・ペットがいらっしゃる場合も配慮しますのでお知らせください。</div>
+        </details>
+        <details>
+          <summary>近隣への配慮はしてもらえますか？<span style="font-size:.7rem; background:#FFE8C2; color:#7A3F12; padding:2px 8px; border-radius:999px; margin-left:8px; border:1px dashed #C7652A;">要確認</span></summary>
+          <div class="faq__answer">はい、工事前にはご近所さまへのご挨拶をお客様と一緒に行います。工事中も音・粉じん・車両の出入りに細心の注意を払い、ご近所トラブルが起こらないよう配慮いたします。「地域で長く住み続ける」というお客様の立場を、私たちも大切にしています。</div>
+        </details>
+        <details>
+          <summary>支払い方法・タイミングはどうなりますか？<span style="font-size:.7rem; background:#FFE8C2; color:#7A3F12; padding:2px 8px; border-radius:999px; margin-left:8px; border:1px dashed #C7652A;">要確認</span></summary>
+          <div class="faq__answer">工事内容・規模に応じて、契約時・着工時・完工時など複数回に分けてのお支払いも対応しております。お見積り提示時に具体的なお支払いスケジュールをご提案しますので、ご都合に合わせてご相談ください。</div>
+        </details>
+        <details>
+          <summary>引き渡し後のアフター対応はありますか？<span style="font-size:.7rem; background:#FFE8C2; color:#7A3F12; padding:2px 8px; border-radius:999px; margin-left:8px; border:1px dashed #C7652A;">要確認</span></summary>
+          <div class="faq__answer">お引き渡し後の不具合や、ちょっとした調整・ご相談にもすぐに対応いたします。地域に根ざした工務店として、お引き渡しで終わりではなく、長くお付き合いさせていただける関係を大切にしています。</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- お客様の声 -->
+  <section class="section" id="voices">
+    <div class="wrap">
+      <p class="eyebrow">お客様の声</p>
+      <h2 class="section-title">ご利用いただいたお客様の声を、随時ご紹介していきます。</h2>
+      <p class="section-lead">大吉工務店では、ご依頼いただいたお客様からのお声を、ご本人の許諾をいただいたうえで掲載してまいります。準備が整い次第、こちらのスペースで順次ご紹介していく予定です。</p>
+
+      <div class="voices">
+        <article class="voice-card voice-card--empty" aria-label="お客様の声 掲載準備中">
+          <div class="voice-card__placeholder">
+            <span aria-hidden="true">
+              <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            </span>
+            <p>掲載準備中</p>
+            <small>実際のお声を頂戴次第、こちらに掲載いたします</small>
+          </div>
+        </article>
+        <article class="voice-card voice-card--empty" aria-label="お客様の声 掲載準備中">
+          <div class="voice-card__placeholder">
+            <span aria-hidden="true">
+              <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            </span>
+            <p>掲載準備中</p>
+            <small>実際のお声を頂戴次第、こちらに掲載いたします</small>
+          </div>
+        </article>
+        <article class="voice-card voice-card--empty" aria-label="お客様の声 掲載準備中">
+          <div class="voice-card__placeholder">
+            <span aria-hidden="true">
+              <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            </span>
+            <p>掲載準備中</p>
+            <small>実際のお声を頂戴次第、こちらに掲載いたします</small>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 会社概要 -->
   <section class="section section--cream2" id="company">
     <div class="wrap">
-      <p class="eyebrow">会社概要</p>
+      <p class="eyebrow">会社概要・アクセス</p>
       <h2 class="section-title">会社概要</h2>
 
       <div class="company">
         <table class="info-table">
           <tbody>
-            <tr><th>企業名</th><td>株式会社大吉工務店</td></tr>
-            <tr><th>代表者</th><td>河合 文子</td></tr>
-            <!-- 郵便番号179-0081は仮入力。正式番号が分かり次第差し替え可 -->
+            <tr><th>会社名</th><td>株式会社大吉工務店</td></tr>
+            <tr><th>代表者名</th><td>河合 文子（カワイ フミコ）</td></tr>
             <tr><th>所在地</th><td>〒179-0081<br>東京都練馬区北町1丁目25-4</td></tr>
             <tr><th>電話番号</th><td><a href="tel:0339311151" style="color:var(--teal);font-weight:700;text-decoration:none;">03-3931-1151</a></td></tr>
+            <tr><th>資本金</th><td>10,000千円</td></tr>
+            <tr><th>建設業許可番号</th><td>東京都知事許可　第011580号</td></tr>
             <tr><th>受付時間</th><td>【営業時間を後日記載】</td></tr>
             <tr><th>最寄り駅</th><td>東武東上線「東武練馬駅」南口から徒歩約8分</td></tr>
-            <tr><th>業種</th><td>建設会社・リフォーム業者（地域密着）</td></tr>
-            <tr><th>許認可</th><td>建築一式工事の建設業許可を取得</td></tr>
-            <tr><th>主な対応</th><td>一戸建て・マンションのリフォーム全般</td></tr>
+            <tr><th>業務内容</th><td>建築工事</td></tr>
           </tbody>
         </table>
 
-        <div class="ph ph--4x3" style="align-self:stretch;">
-          <span>
-            <svg class="ph__icon" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M3 21V8l9-5 9 5v13"/><path d="M3 21h18"/><rect x="9" y="13" width="6" height="8"/></svg>
-            <span class="ph__cap">【会社・店舗・スタッフ写真など】</span>
-            <span class="ph__dim">任意・推奨 4:3</span>
-          </span>
+        <div style="background:#fff; border:1px solid var(--line); border-radius:var(--radius); padding:30px; box-shadow:var(--shadow); align-self:stretch;">
+          <h3 style="font-family:var(--serif); color:var(--teal); font-size:1.2rem; margin:0 0 14px;">大吉工務店について</h3>
+          <p style="margin:0 0 12px; font-size:.96rem; line-height:1.95;">大吉工務店は、東京都練馬区北町に拠点を構える地域密着の工務店です。建築一式工事の建設業許可を持ち、新築・増改築から耐震補強まで、住まいに関するあらゆる工事を承っております。</p>
+          <p style="margin:0 0 12px; font-size:.96rem; line-height:1.95;">お客様の暮らしに寄り添い、「この家でこれからもずっと住み続けたい」というご希望を叶えられるよう、ひとつひとつのご依頼に責任を持ってお応えしております。</p>
+          <p style="margin:0; font-size:.96rem; line-height:1.95;">練馬区の地元の皆さまをはじめ、近隣エリアからもご相談を多くいただいております。住まいのお悩みは、大吉工務店にお任せください。</p>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- ============================================================
-       ⑧ アクセス（Googleマップ埋め込み）
-       ============================================================ -->
-  <section class="section" id="access">
-    <div class="wrap">
-      <p class="eyebrow">アクセス</p>
-      <h2 class="section-title">アクセス</h2>
-      <p class="section-lead">東武練馬駅 南口から徒歩約8分。お近くにお越しの際はお気軽にお立ち寄りください。</p>
-
-      <div class="access">
-        <dl class="access__info">
-          <div>
-            <dt>住所</dt>
-            <dd>〒179-0081<br>東京都練馬区北町1丁目25-4</dd>
-          </div>
-          <div>
-            <dt>最寄り駅</dt>
-            <dd>東武東上線「東武練馬駅」南口 徒歩約8分</dd>
-          </div>
-          <div>
-            <dt>お電話</dt>
-            <dd><a href="tel:0339311151" style="color:var(--teal);font-weight:700;text-decoration:none;">03-3931-1151</a></dd>
-          </div>
-          <div style="margin-top:6px;">
-            <!-- GoogleマップURLは後日差し替え -->
-            <a class="btn btn-ghost" href="https://maps.app.goo.gl/Vp9EH4HAtMhLugsz5" target="_blank" rel="noopener noreferrer">地図・道順を見る（Googleマップ）</a>
-          </div>
-        </dl>
-
-        <!-- Googleマップ埋め込み（所在地：東京都練馬区北町1丁目25-4）
-             ※APIキー不要の埋め込み形式。住所のピン位置がずれる場合は、
-               Googleマップで正確な位置を表示→「共有」→「地図を埋め込む」のiframeに置き換えてください。 -->
-        <div class="map-card">
-          <iframe
-            class="map-embed"
-            title="株式会社大吉工務店の所在地（Googleマップ）"
-            src="https://maps.google.com/maps?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%B7%B4%E9%A6%AC%E5%8C%BA%E5%8C%97%E7%94%BA1%E4%B8%81%E7%9B%AE25-4&hl=ja&z=16&output=embed"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+      <!-- アクセス（Googleマップ） -->
+      <div class="map-card" style="margin-top:36px;">
+        <iframe
+          class="map-embed"
+          title="株式会社大吉工務店の所在地（Googleマップ）"
+          src="https://maps.google.com/maps?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%B7%B4%E9%A6%AC%E5%8C%BA%E5%8C%97%E7%94%BA1%E4%B8%81%E7%9B%AE25-4&hl=ja&z=16&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-    </div>
   </section>
 
-  <!-- ============================================================
-       ⑨ お問い合わせ（CV）
-       ============================================================ -->
+  <!-- お問い合わせ -->
   <section class="section contact" id="contact">
     <div class="wrap">
       <p class="eyebrow">お問い合わせ</p>
-      <h2 class="section-title">お気軽にご相談ください</h2>
-      <p class="section-lead" style="color:rgba(255,255,255,.85);">お電話・フォームのどちらでもご相談を承ります。内容が決まっていない段階でも、まずはお気軽にお声がけください。</p>
+      <h2 class="section-title">ご相談・お見積りは、お気軽にどうぞ</h2>
+      <p class="section-lead" style="color:rgba(255,255,255,.85);">お電話・フォームのどちらでもご相談を承ります。「とりあえず相談だけ」「予算感だけ知りたい」という段階でも、まずはお気軽にお声がけください。練馬区・板橋区を中心に、ご訪問でのご相談も承ります。</p>
 
       <div class="contact-grid">
         <!-- 電話CTA -->
@@ -868,24 +1309,36 @@ select:focus-visible, textarea:focus-visible{
             03-3931-1151
           </a><br>
           <span class="hours">受付時間【営業時間を後日記載】</span>
+
+          <!-- お問い合わせのメリット表示 -->
+          <ul style="list-style:none; padding:0; margin:24px 0 0; display:flex; flex-direction:column; gap:11px; border-top:1px solid rgba(255,255,255,.2); padding-top:22px;">
+            <li style="font-size:.95rem; display:flex; align-items:flex-start; gap:10px;">
+              <span style="color:#FBD9B8; font-weight:700; flex-shrink:0;">✓</span>
+              <span>ご相談・現地調査・お見積りはお気軽にどうぞ</span>
+            </li>
+            <li style="font-size:.95rem; display:flex; align-items:flex-start; gap:10px;">
+              <span style="color:#FBD9B8; font-weight:700; flex-shrink:0;">✓</span>
+              <span>建築一式工事の許可を持つ地域密着の工務店</span>
+            </li>
+            <li style="font-size:.95rem; display:flex; align-items:flex-start; gap:10px;">
+              <span style="color:#FBD9B8; font-weight:700; flex-shrink:0;">✓</span>
+              <span>新築・増改築・耐震・リフォームを一括対応</span>
+            </li>
+            <li style="font-size:.95rem; display:flex; align-items:flex-start; gap:10px;">
+              <span style="color:#FBD9B8; font-weight:700; flex-shrink:0;">✓</span>
+              <span>補助金・助成金のご案内も対応</span>
+            </li>
+            <li style="font-size:.95rem; display:flex; align-items:flex-start; gap:10px;">
+              <span style="color:#FBD9B8; font-weight:700; flex-shrink:0;">✓</span>
+              <span>練馬区・板橋区中心に近隣エリアへ訪問可</span>
+            </li>
+          </ul>
         </div>
 
         <!-- フォーム -->
         <div class="form-card">
-          <!-- フォーム上部の一言。「無料」と断定してよいか未確定のため、断定文はコメントアウトで用意 -->
-          <!-- <p class="form-note">リフォームのご相談・お見積りは無料です。</p> -->
           <p class="form-note">リフォームのご相談・お見積りについてはお気軽にお問い合わせください。</p>
 
-          <!-- ============================================================
-               【フォーム送信設定】★ここがフォーム送信の唯一の設定箇所です★
-               現状は送信先未定のため action="【送信先設定】" のプレースホルダーです。
-               下記いずれかの方法で送信先を設定してください：
-                 (A) メール送信：サーバー側スクリプト(PHP等)のURLを action に設定し method="post"
-                 (B) フォームサービス連携：Formspree / Google Forms / Tally などの
-                     エンドポイントURLを action に設定（サービス指定の hidden 項目があれば追加）
-               ※送信成功後の遷移先（サンクスページ）を使う場合は、
-                 下のJavaScript内 sendForm() の「// ★送信処理」コメント箇所も合わせて編集してください。
-               ============================================================ -->
           <form id="contactForm" action="【送信先設定】" method="post" novalidate>
             <div class="field" id="f-name">
               <label for="name">お名前<span class="req">必須</span></label>
@@ -924,7 +1377,10 @@ select:focus-visible, textarea:focus-visible{
               <span class="err">お問い合わせ内容をご入力ください。</span>
             </div>
 
-            <button type="submit" class="btn btn-cta form-submit">この内容で送信する</button>
+            <p class="form-privacy">
+              送信前に <a href="#privacy">プライバシーポリシー</a> をご確認ください。送信いただいた個人情報は、ご相談・お見積りへの対応、お打ち合わせ、施工後のご連絡を目的としてのみ使用し、ご本人の同意なく第三者に提供することはありません。
+            </p>
+            <button type="submit" class="btn btn-cta form-submit">同意して送信する</button>
             <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
           </form>
         </div>
@@ -933,9 +1389,7 @@ select:focus-visible, textarea:focus-visible{
   </section>
 </main>
 
-<!-- ============================================================
-     ⑩ フッター
-     ============================================================ -->
+<!-- フッター -->
 <footer class="site-footer">
   <div class="wrap">
     <div class="footer-grid">
@@ -957,33 +1411,39 @@ select:focus-visible, textarea:focus-visible{
       <div>
         <h4>メニュー</h4>
         <ul class="footer-nav">
-          <li><a href="#values">会社の強み</a></li>
+          <li><a href="#message">代表挨拶</a></li>
+          <li><a href="#values">弊社の強み</a></li>
           <li><a href="#services">対応業務</a></li>
-          <li><a href="#gallery">施工実績</a></li>
+          <li><a href="#balance">設計の考え方</a></li>
           <li><a href="#flow">ご相談の流れ</a></li>
-          <li><a href="#company">会社概要</a></li>
-          <li><a href="#access">アクセス</a></li>
-          <li><a href="#contact">お問い合わせ</a></li>
+          <li><a href="#works">施工事例</a></li>
+          <li><a href="#faq">よくあるご質問</a></li>
         </ul>
       </div>
 
       <div>
-        <h4>関連リンク</h4>
+        <h4>関連リンク・お問い合わせ</h4>
         <ul class="footer-links">
-          <!-- 外部リンクURLは後日差し替え -->
-          <li><a href="【iタウンページURL】" target="_blank" rel="noopener noreferrer">iタウンページ（施工実績・店舗詳細）</a></li>
-          <li><a href="https://maps.app.goo.gl/Vp9EH4HAtMhLugsz5" target="_blank" rel="noopener noreferrer">Googleマップ（所在地・道順）</a></li>
+          <li><a href="tel:0339311151">お電話：03-3931-1151</a></li>
+          <li><a href="#contact">お問い合わせフォーム</a></li>
+          <li><a href="https://maps.app.goo.gl/Vp9EH4HAtMhLugsz5" target="_blank" rel="noopener noreferrer">Googleマップ（所在地）</a></li>
         </ul>
+        <p style="margin-top:18px; font-size:.85rem; color:rgba(255,255,255,.7); line-height:1.8;">練馬区を中心に、新築・増改築・耐震補強のご相談を承っております。お気軽にお問い合わせください。</p>
       </div>
     </div>
 
-    <div class="copyright">© 株式会社大吉工務店</div>
+    <div class="footer-bottom">
+      <ul class="legal-nav" aria-label="法的情報">
+        <li><a href="#privacy">プライバシーポリシー（要作成）</a></li>
+        <li><a href="#company">会社概要</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
+      </ul>
+      <div class="copyright">© 2026 株式会社大吉工務店</div>
+    </div>
   </div>
 </footer>
 
-<!-- ============================================================
-     モバイル固定バー（画面下部）：電話する／お問い合わせ
-     ============================================================ -->
+<!-- モバイル固定バー -->
 <div class="mobile-bar" aria-label="電話・お問い合わせ">
   <div class="row">
     <a class="btn btn-tel" href="tel:0339311151">
@@ -995,14 +1455,7 @@ select:focus-visible, textarea:focus-visible{
 </div>
 
 <script>
-/* ============================================================
-   JavaScript（コメント付き）
-   1) モバイルナビの開閉
-   2) ナビをタップしたらメニューを閉じる
-   3) お問い合わせフォームのクライアント側バリデーション
-   ============================================================ */
-
-// --- 1) モバイルナビ開閉 ---
+// モバイルナビ開閉
 var navToggle = document.getElementById('navToggle');
 var siteNav   = document.getElementById('siteNav');
 navToggle.addEventListener('click', function(){
@@ -1010,7 +1463,7 @@ navToggle.addEventListener('click', function(){
   navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
   navToggle.setAttribute('aria-label', open ? 'メニューを閉じる' : 'メニューを開く');
 });
-// --- 2) ナビ内リンクを押したら閉じる（モバイル） ---
+// ナビ内リンクを押したら閉じる（モバイル）
 siteNav.querySelectorAll('a').forEach(function(a){
   a.addEventListener('click', function(){
     siteNav.classList.remove('open');
@@ -1026,7 +1479,6 @@ var statusEl = document.getElementById('formStatus');
 function validate(){
   var ok = true;
 
-  // 入力欄と、その親.fieldを取得して invalid 表示を切り替えるヘルパー
   function setValid(fieldId, valid){
     var field = document.getElementById(fieldId);
     if(valid){ field.classList.remove('is-invalid'); }
@@ -1036,12 +1488,11 @@ function validate(){
   var name = document.getElementById('name').value.trim();
   setValid('f-name', name.length > 0);
 
-  // 電話：数字・ハイフン・括弧・＋・空白を許容し、数字が10桁以上あればOK
   var tel = document.getElementById('tel').value.trim();
   var telDigits = tel.replace(/[^0-9]/g, '');
   setValid('f-tel', /^[0-9+\-()\s]+$/.test(tel) && telDigits.length >= 10);
 
-  // メール：任意項目。入力がある場合のみ形式チェック
+  // メール：任意項目（入力がある場合のみ形式チェック）
   var email = document.getElementById('email').value.trim();
   var emailOk = (email.length === 0) || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   setValid('f-email', emailOk);
@@ -1056,7 +1507,7 @@ function validate(){
 }
 
 form.addEventListener('submit', function(e){
-  e.preventDefault(); // ★まずバリデーション。送信先設定後は下の「★送信処理」を有効化してください
+  e.preventDefault();
   statusEl.className = 'form-status';
 
   if(!validate()){
@@ -1067,12 +1518,6 @@ form.addEventListener('submit', function(e){
     return;
   }
 
-  // ============================================================
-  // ★送信処理（送信先が決まったら、ここを実装してください）
-  //   ・通常のメール送信/フォームサービス連携なら、上の e.preventDefault() を削除し、
-  //     <form> の action（【送信先設定】）に送信先URLを設定するだけでOKです。
-  //   ・非同期（fetch）で送信したい場合は、ここに fetch(form.action, {...}) を記述します。
-  // ============================================================
   statusEl.className = 'form-status ok';
   statusEl.textContent = '入力内容に問題はありません。（※現在は送信先が未設定のため、実際の送信は行われません。設定後に送信可能になります。）';
   // 例）送信先設定後はコメントを外す：
